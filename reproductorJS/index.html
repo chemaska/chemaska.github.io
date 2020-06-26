@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de audio con Javascript</title>
+    <link rel="stylesheet" href="reproductor.css">
+    
+</head>
+<body>
+    <div id="contenedor">
+        <audio src="03 Dama de fuego.mp3" id="cancion"></audio>
+        <div class="imagen">
+            <img src="img/disco.png" alt="anterior" id="disco">
+        </div>
+        <div class="info">
+            <div><b>Artista: </b><span id="artista">Chemaska</span></div>
+            <div><b>Canción: </b><span id="nombre">Dama de fuego</span></div>
+        </div>
+        <div class="controles">
+            <img src="img/Atras.png" alt="anterior" id="anterior">
+            <img src="img/Play.png" alt="anterior" id="reproducir">
+            <img src="img/Adelante.png" alt="anterior" id="siguiente">
+            <img src="img/Menu.png" alt="anterior" id="menu">
+        </div>
+    </div>
+    <div id="campoLetra">
+        <div id="guardar">Guardar</div>
+        <textarea id="letra"></textarea>
+
+    </div>
+
+    <script src="reproductor.js"></script>
+</body>
+</html>
